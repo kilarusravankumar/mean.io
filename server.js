@@ -12,7 +12,7 @@ var mime=require('mime');
 
 //Cache object whre content of cached files are stored.
 var cache={};
-
+//404 error this will be soo cool
 var send404=function(response){
 response.writeHead(404,{'content-Type':'text/plain'});
 response.write('Error 404: resource not found.');
